@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: unbounded;
+}
+
+form {
+    font-family: unbounded;
+}
+
+a{
+    text-decoration:none;
+}
+
+p{
+    color: #1d0447;
+    font-family: unbounded;
+}
+
+ul {
+    list-style: none;
+}
+
+
+h1, h2 {
+    color: #080534;
+    font-family: unbounded;
+    text-align: center;
+    line-height: 1.9;
+
+}
+
+.encabezadoini {
+    height: 40vh;
+    width: 100%;
+    background-color: #b49ddf;
+    
+}
+
+.encabezadoini img {
+    width: 100%;
+    height: 100%;
+}
+
+.cuerpoini {
+    background-color: #b49ddf;
+    width: auto;
+    height: auto;
+
+}
+
+.Iniciocata {
+    background-color: #9474c5;
+    min-height:25%;
+    max-height: 25%;
+    justify-items:center;
+    font-family: unbounded;
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+
+}
+
+
+.grilla {
+    background-color: #b49ddf;
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 70px 70px;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto;
+    gap: 70px;
+    justify-items:center;
+
+}
+
+.grillahijo {
+    background-color: #9673d2;
+    font-family: unbounded;
+    font-size: 30px;
+    padding: 10px;
+    width: auto;
+
+
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
