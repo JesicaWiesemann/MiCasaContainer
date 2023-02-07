@@ -3,8 +3,8 @@
 
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,11 +16,11 @@ form {
     font-family: unbounded;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
-p{
+p {
     color: #1d0447;
     font-family: unbounded;
 }
@@ -30,7 +30,8 @@ ul {
 }
 
 
-h1, h2 {
+h1,
+h2 {
     color: #080534;
     font-family: unbounded;
     text-align: center;
@@ -38,16 +39,47 @@ h1, h2 {
 
 }
 
-.encabezadoini {
-    height: 40vh;
+.contacto {
+    background-color: #b49ddf;
+    width: auto;
+    height: auto;
+}
+
+.imagennosotros {
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.empresa {
+    height: 100%;
     width: 100%;
     background-color: #b49ddf;
-    
+}
+
+.textoempresa {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.encabezadoini {
+    height: 50vh;
+    width: 100%;
+    background-color: #b49ddf;
+
 }
 
 .encabezadoini img {
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 100%;
+    width: 100%;
 }
 
 .cuerpoini {
@@ -55,18 +87,48 @@ h1, h2 {
     width: auto;
     height: auto;
 
+
 }
+
+.textocuerpoini {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miratucasa {
+
+    background-color: #b49ddf;
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 
 .Iniciocata {
     background-color: #9474c5;
-    min-height:25%;
+    min-height: 25%;
     max-height: 25%;
-    justify-items:center;
+    justify-items: center;
     font-family: unbounded;
     font-size: 20px;
     padding: 10px;
     width: auto;
 
+}
+
+.textoiniciocata {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -79,16 +141,36 @@ h1, h2 {
     grid-template-columns: 50% auto;
     grid-template-rows: auto;
     gap: 70px;
-    justify-items:center;
+    justify-items: center;
 
 }
 
 .grillahijo {
     background-color: #9673d2;
     font-family: unbounded;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     width: auto;
+
+
+}
+
+.mapaubicacion {
+    background-color: #b49ddf;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+iframe {
+    width: 600px;
+    height: 450px;
 
 
 }
@@ -98,7 +180,21 @@ footer {
 }
 
 
+.formulario {
+    background: #9673d2;
+    color:  #b49ddf;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    margin: 20px;
+}
 
-
-
-
+.formulario__contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
