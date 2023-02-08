@@ -1,0 +1,19 @@
+{
+  "name": "dw47680",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesicaWiesemann/MiCasaContainer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesicaWiesemann/MiCasaContainer/issues"
+  },
+  "homepage": "https://github.com/JesicaWiesemann/MiCasaContainer#readme"
+}
